@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="35" passed="32" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-01T22:55:48 IST" name="RestassuredAPItest" finished-at="2020-11-01T22:55:53 IST" duration-ms="5255">
+    <groups>
+    </groups>
+    <test started-at="2020-11-01T22:55:48 IST" name="api Test" finished-at="2020-11-01T22:55:53 IST" duration-ms="5255">
+      <class name="employeetestclass.getallEmplyees">
+        <test-method is-config="true" signature="setup()[pri:0, instance:employeetestclass.getallEmplyees@302c971f]" started-at="2020-11-01T22:55:48 IST" name="setup" finished-at="2020-11-01T22:55:48 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getallemployees()[pri:0, instance:employeetestclass.getallEmplyees@302c971f]" started-at="2020-11-01T22:55:48 IST" name="getallemployees" finished-at="2020-11-01T22:55:50 IST" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallemployees -->
+        <test-method signature="checkContentEncoding()[pri:0, instance:employeetestclass.getallEmplyees@302c971f]" started-at="2020-11-01T22:55:50 IST" name="checkContentEncoding" finished-at="2020-11-01T22:55:50 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method signature="checkContenttype()[pri:0, instance:employeetestclass.getallEmplyees@302c971f]" started-at="2020-11-01T22:55:50 IST" name="checkContenttype" finished-at="2020-11-01T22:55:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContenttype -->
+        <test-method signature="checkResponseBody()[pri:0, instance:employeetestclass.getallEmplyees@302c971f]" started-at="2020-11-01T22:55:50 IST" name="checkResponseBody" finished-at="2020-11-01T22:55:50 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponsetime()[pri:0, instance:employeetestclass.getallEmplyees@302c971f]" started-at="2020-11-01T22:55:50 IST" name="checkResponsetime" finished-at="2020-11-01T22:55:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponsetime -->
+        <test-method signature="checkServertype()[pri:0, instance:employeetestclass.getallEmplyees@302c971f]" started-at="2020-11-01T22:55:50 IST" name="checkServertype" finished-at="2020-11-01T22:55:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServertype -->
+        <test-method signature="checkStatuscode()[pri:0, instance:employeetestclass.getallEmplyees@302c971f]" started-at="2020-11-01T22:55:50 IST" name="checkStatuscode" finished-at="2020-11-01T22:55:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatuscode -->
+        <test-method signature="checkStatusline()[pri:0, instance:employeetestclass.getallEmplyees@302c971f]" started-at="2020-11-01T22:55:50 IST" name="checkStatusline" finished-at="2020-11-01T22:55:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusline -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:employeetestclass.getallEmplyees@302c971f]" started-at="2020-11-01T22:55:50 IST" name="teardown" finished-at="2020-11-01T22:55:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- employeetestclass.getallEmplyees -->
+      <class name="employeetestclass.deleteEmployees">
+        <test-method is-config="true" signature="setup()[pri:0, instance:employeetestclass.deleteEmployees@61c4eee0]" started-at="2020-11-01T22:55:51 IST" name="setup" finished-at="2020-11-01T22:55:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getallemployees()[pri:0, instance:employeetestclass.deleteEmployees@61c4eee0]" started-at="2020-11-01T22:55:51 IST" name="getallemployees" finished-at="2020-11-01T22:55:53 IST" duration-ms="1969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallemployees -->
+        <test-method signature="checkContentEncoding()[pri:0, instance:employeetestclass.deleteEmployees@61c4eee0]" started-at="2020-11-01T22:55:53 IST" name="checkContentEncoding" finished-at="2020-11-01T22:55:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method signature="checkContenttype()[pri:0, instance:employeetestclass.deleteEmployees@61c4eee0]" started-at="2020-11-01T22:55:53 IST" name="checkContenttype" finished-at="2020-11-01T22:55:53 IST" duration-ms="2" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [application/json; charset=utf-8] but found [null]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [application/json; charset=utf-8] but found [null]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at employeetestclass.deleteEmployees.checkContenttype(deleteEmployees.java:99)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContenttype -->
+        <test-method signature="checkResponseBody()[pri:0, instance:employeetestclass.deleteEmployees@61c4eee0]" started-at="2020-11-01T22:55:53 IST" name="checkResponseBody" finished-at="2020-11-01T22:55:53 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at employeetestclass.deleteEmployees.checkResponseBody(deleteEmployees.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponsetime()[pri:0, instance:employeetestclass.deleteEmployees@61c4eee0]" started-at="2020-11-01T22:55:53 IST" name="checkResponsetime" finished-at="2020-11-01T22:55:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponsetime -->
+        <test-method signature="checkServertype()[pri:0, instance:employeetestclass.deleteEmployees@61c4eee0]" started-at="2020-11-01T22:55:53 IST" name="checkServertype" finished-at="2020-11-01T22:55:53 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServertype -->
+        <test-method signature="checkStatuscode()[pri:0, instance:employeetestclass.deleteEmployees@61c4eee0]" started-at="2020-11-01T22:55:53 IST" name="checkStatuscode" finished-at="2020-11-01T22:55:53 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [204]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [204]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at employeetestclass.deleteEmployees.checkStatuscode(deleteEmployees.java:65)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatuscode -->
+        <test-method signature="checkStatusline()[pri:0, instance:employeetestclass.deleteEmployees@61c4eee0]" started-at="2020-11-01T22:55:53 IST" name="checkStatusline" finished-at="2020-11-01T22:55:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusline -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:employeetestclass.deleteEmployees@61c4eee0]" started-at="2020-11-01T22:55:53 IST" name="teardown" finished-at="2020-11-01T22:55:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- employeetestclass.deleteEmployees -->
+      <class name="employeetestclass.postEmployee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:employeetestclass.postEmployee@7ae0a9ec]" started-at="2020-11-01T22:55:50 IST" name="setup" finished-at="2020-11-01T22:55:50 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getallemployees()[pri:0, instance:employeetestclass.postEmployee@7ae0a9ec]" started-at="2020-11-01T22:55:50 IST" name="getallemployees" finished-at="2020-11-01T22:55:51 IST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallemployees -->
+        <test-method signature="checkContentEncoding()[pri:0, instance:employeetestclass.postEmployee@7ae0a9ec]" started-at="2020-11-01T22:55:51 IST" name="checkContentEncoding" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method signature="checkContenttype()[pri:0, instance:employeetestclass.postEmployee@7ae0a9ec]" started-at="2020-11-01T22:55:51 IST" name="checkContenttype" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContenttype -->
+        <test-method signature="checkResponseBody()[pri:0, instance:employeetestclass.postEmployee@7ae0a9ec]" started-at="2020-11-01T22:55:51 IST" name="checkResponseBody" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponsetime()[pri:0, instance:employeetestclass.postEmployee@7ae0a9ec]" started-at="2020-11-01T22:55:51 IST" name="checkResponsetime" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponsetime -->
+        <test-method signature="checkServertype()[pri:0, instance:employeetestclass.postEmployee@7ae0a9ec]" started-at="2020-11-01T22:55:51 IST" name="checkServertype" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServertype -->
+        <test-method signature="checkStatuscode()[pri:0, instance:employeetestclass.postEmployee@7ae0a9ec]" started-at="2020-11-01T22:55:51 IST" name="checkStatuscode" finished-at="2020-11-01T22:55:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatuscode -->
+        <test-method signature="checkStatusline()[pri:0, instance:employeetestclass.postEmployee@7ae0a9ec]" started-at="2020-11-01T22:55:51 IST" name="checkStatusline" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusline -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:employeetestclass.postEmployee@7ae0a9ec]" started-at="2020-11-01T22:55:51 IST" name="teardown" finished-at="2020-11-01T22:55:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- employeetestclass.postEmployee -->
+      <class name="employeetestclass.getsingleemplyee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:employeetestclass.getsingleemplyee@1972e513]" started-at="2020-11-01T22:55:50 IST" name="setup" finished-at="2020-11-01T22:55:50 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getallemployees()[pri:0, instance:employeetestclass.getsingleemplyee@1972e513]" started-at="2020-11-01T22:55:50 IST" name="getallemployees" finished-at="2020-11-01T22:55:50 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallemployees -->
+        <test-method signature="checkContentEncoding()[pri:0, instance:employeetestclass.getsingleemplyee@1972e513]" started-at="2020-11-01T22:55:50 IST" name="checkContentEncoding" finished-at="2020-11-01T22:55:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method signature="checkContenttype()[pri:0, instance:employeetestclass.getsingleemplyee@1972e513]" started-at="2020-11-01T22:55:50 IST" name="checkContenttype" finished-at="2020-11-01T22:55:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContenttype -->
+        <test-method signature="checkResponseBody()[pri:0, instance:employeetestclass.getsingleemplyee@1972e513]" started-at="2020-11-01T22:55:50 IST" name="checkResponseBody" finished-at="2020-11-01T22:55:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponsetime()[pri:0, instance:employeetestclass.getsingleemplyee@1972e513]" started-at="2020-11-01T22:55:50 IST" name="checkResponsetime" finished-at="2020-11-01T22:55:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponsetime -->
+        <test-method signature="checkServertype()[pri:0, instance:employeetestclass.getsingleemplyee@1972e513]" started-at="2020-11-01T22:55:50 IST" name="checkServertype" finished-at="2020-11-01T22:55:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServertype -->
+        <test-method signature="checkStatuscode()[pri:0, instance:employeetestclass.getsingleemplyee@1972e513]" started-at="2020-11-01T22:55:50 IST" name="checkStatuscode" finished-at="2020-11-01T22:55:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatuscode -->
+        <test-method signature="checkStatusline()[pri:0, instance:employeetestclass.getsingleemplyee@1972e513]" started-at="2020-11-01T22:55:50 IST" name="checkStatusline" finished-at="2020-11-01T22:55:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusline -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:employeetestclass.getsingleemplyee@1972e513]" started-at="2020-11-01T22:55:50 IST" name="teardown" finished-at="2020-11-01T22:55:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- employeetestclass.getsingleemplyee -->
+      <class name="employeetestclass.updateEmployees">
+        <test-method is-config="true" signature="setup()[pri:0, instance:employeetestclass.updateEmployees@35841320]" started-at="2020-11-01T22:55:51 IST" name="setup" finished-at="2020-11-01T22:55:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="getallemployees()[pri:0, instance:employeetestclass.updateEmployees@35841320]" started-at="2020-11-01T22:55:51 IST" name="getallemployees" finished-at="2020-11-01T22:55:51 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getallemployees -->
+        <test-method signature="checkContentEncoding()[pri:0, instance:employeetestclass.updateEmployees@35841320]" started-at="2020-11-01T22:55:51 IST" name="checkContentEncoding" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method signature="checkContenttype()[pri:0, instance:employeetestclass.updateEmployees@35841320]" started-at="2020-11-01T22:55:51 IST" name="checkContenttype" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContenttype -->
+        <test-method signature="checkResponseBody()[pri:0, instance:employeetestclass.updateEmployees@35841320]" started-at="2020-11-01T22:55:51 IST" name="checkResponseBody" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method signature="checkResponsetime()[pri:0, instance:employeetestclass.updateEmployees@35841320]" started-at="2020-11-01T22:55:51 IST" name="checkResponsetime" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponsetime -->
+        <test-method signature="checkServertype()[pri:0, instance:employeetestclass.updateEmployees@35841320]" started-at="2020-11-01T22:55:51 IST" name="checkServertype" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServertype -->
+        <test-method signature="checkStatuscode()[pri:0, instance:employeetestclass.updateEmployees@35841320]" started-at="2020-11-01T22:55:51 IST" name="checkStatuscode" finished-at="2020-11-01T22:55:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatuscode -->
+        <test-method signature="checkStatusline()[pri:0, instance:employeetestclass.updateEmployees@35841320]" started-at="2020-11-01T22:55:51 IST" name="checkStatusline" finished-at="2020-11-01T22:55:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusline -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:employeetestclass.updateEmployees@35841320]" started-at="2020-11-01T22:55:51 IST" name="teardown" finished-at="2020-11-01T22:55:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- employeetestclass.updateEmployees -->
+    </test> <!-- api Test -->
+  </suite> <!-- RestassuredAPItest -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > -->
+
+<suite name="RestassuredAPItest">
+
+	<listeners>
+		<listener class-name="employeeutiles.Reporting" />	
+	</listeners>
+
+	<test name="api Test">
+	
+		<classes>
+		    <class name="employeetestclass.getallEmplyees" />
+		     <class name="employeetestclass.getsingleemplyee" />
+		     <class name="employeetestclass.postEmployee" />
+		     <class name="employeetestclass.updateEmployees" />
+			<class name="employeetestclass.deleteEmployees" />		
+		</classes>
+
+	</test>
+
+</suite>
